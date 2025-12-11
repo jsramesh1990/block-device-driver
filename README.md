@@ -97,26 +97,8 @@ The following diagram shows how the block device driver interacts with the syste
 
 
 #        Working Flow (Block Diagram )
-flowchart TD
 
-    A[User Space Application] 
-        --> B[VFS (Virtual File System)]
-    B --> C[Filesystem Layer (ext4, FAT, etc.)]
-    C --> D[Page Cache / Buffer Cache]
-
-    D --> E[Block Layer]
-    E --> F[BIO Creation (Read/Write Requests)]
-    F --> G[Multi-Queue I/O Scheduler (blk-mq)]
-
-    G --> H[Driver: request_fn() / queue_rq()]
-    H --> I[Backend Storage<br>(RAM Disk / SD / eMMC / File / Hardware)]
-
-    I --> J[Data Completed]
-    J --> K[Block Layer Completion]
-    K --> L[Page Cache Update]
-    L --> M[Filesystem Response]
-    M --> N[VFS Return]
-    N --> O[User Application Receives Data]
+![driver overview](https://github.com/user-attachments/assets/3100bdaa-b897-4f09-ad18-7bc8bce9650a)
 
 
 
