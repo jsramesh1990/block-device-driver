@@ -1,5 +1,26 @@
-
 #  Yocto Block Device Driver Project
+
+[![Yocto Project](https://img.shields.io/badge/Yocto-Project-blue.svg)](https://www.yoctoproject.org/)
+[![Linux Kernel](https://img.shields.io/badge/Linux-Kernel%20Driver-orange.svg)](https://www.kernel.org/)
+[![Block Device](https://img.shields.io/badge/Block%20Device-Driver-green.svg)](https://en.wikipedia.org/wiki/Device_driver)
+[![Embedded Linux](https://img.shields.io/badge/Embedded-Linux-red.svg)](https://en.wikipedia.org/wiki/Embedded_Linux)
+[![BitBake](https://img.shields.io/badge/Build-BitBake-yellow.svg)](https://github.com/openembedded/bitbake)
+[![RAM Disk](https://img.shields.io/badge/RAM-Disk%20Driver-purple.svg)](https://en.wikipedia.org/wiki/RAM_drive)
+[![Driver Development](https://img.shields.io/badge/Driver-Development-8b0000.svg)](https://en.wikipedia.org/wiki/Device_driver_development)
+[![Kernel Module](https://img.shields.io/badge/Kernel-Module-0066cc.svg)](https://en.wikipedia.org/wiki/Loadable_kernel_module)
+[![Makefile](https://img.shields.io/badge/Build-Makefile-lightgrey.svg)](https://en.wikipedia.org/wiki/Makefile)
+[![Educational](https://img.shields.io/badge/Educational-Portfolio%20Project-ff69b4.svg)](https://en.wikipedia.org/wiki/Educational_software)
+[![C Programming](https://img.shields.io/badge/C-Embedded%20Programming-009688.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![IOCTL](https://img.shields.io/badge/IOCTL-Interface-blueviolet.svg)](https://en.wikipedia.org/wiki/Ioctl)
+[![Character Device](https://img.shields.io/badge/Character%20Device-Driver-32CD32.svg)](https://en.wikipedia.org/wiki/Device_file)
+[![Prototyping](https://img.shields.io/badge/Prototyping-Environment-FF8C00.svg)](https://en.wikipedia.org/wiki/Software_prototyping)
+[![GitHub Portfolio](https://img.shields.io/badge/GitHub-Portfolio%20Ready-181717.svg)](https://github.com)
+[![Cross-Platform](https://img.shields.io/badge/Cross--Platform-Linux%20Kernel-333333.svg)](https://en.wikipedia.org/wiki/Cross-platform)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Hardware/Software-brightgreen.svg)](https://opensource.org/)
+[![System Programming](https://img.shields.io/badge/System-Programming-4B0082.svg)](https://en.wikipedia.org/wiki/System_programming)
+[![Low-Level](https://img.shields.io/badge/Low--Level-Programming-800000.svg)](https://en.wikipedia.org/wiki/Low-level_programming_language)
+[![Virtual Device](https://img.shields.io/badge/Virtual-Device%20Driver-2E8B57.svg)](https://en.wikipedia.org/wiki/Virtual_device)
+[![Build Automation](https://img.shields.io/badge/Build-Automation-483D8B.svg)](https://en.wikipedia.org/wiki/Build_automation)
 
 This project provides a **Yocto-like environment** for learning and demonstrating how a **block device driver** works, without requiring a full Yocto build.
 
